@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>lrmate_analysis</name>
+  <version>0.2.0</version>
+  <description>Jacobian logger (MoveIt 2 vs KDL vs NumPy) for the LR Mate 200iD pick-and-place workshop</description>
+  <maintainer email="miguel-calle@todo.todo">Miguel</maintainer>
+  <license>MIT</license>
+
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+
+  <exec_depend>python3-numpy</exec_depend>
+  <!-- Optional at runtime: the node falls back gracefully if they are missing -->
+  <exec_depend>python_orocos_kdl_vendor</exec_depend>
+  <exec_depend>moveit_py</exec_depend>
+  <exec_depend>moveit_configs_utils</exec_depend>
+  <exec_depend>lrmate200id_moveit_config</exec_depend>
+
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

@@ -1,0 +1,25 @@
+moveit_setup_assistant_config:
+  urdf:
+    package: lrmate200id_support
+    relative_path: urdf/lrmate200id.xacro
+  srdf:
+    relative_path: config/lrmate200id.srdf
+  package_settings:
+    author_name: Miguel Calle
+    author_email: miguel.calle47@eia.edu.co
+    generated_timestamp: 1789682870
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
+  modified_urdf:
+    xacros:
+      - control_xacro
+  control_xacro:
+    command:
+      - position
+    state:
+      - position
+      - velocity
