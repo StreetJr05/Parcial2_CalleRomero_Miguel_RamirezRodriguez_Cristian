@@ -1,4 +1,4 @@
-# Parcial 2 – Robótica: Celda pick-and-place con ROS 2 Jazzy + MoveIt 2 (FANUC LR Mate 200iD)
+# Parcial 2 – Robótica: Cinemática y Planeación de Movimiento con ROS2 / MoveIt2 (FANUC LR Mate 200iD)
 
 Workspace de ROS 2 para la simulación, planificación y ejecución de un ciclo pick-and-place con un FANUC LR Mate 200iD. Incluye el paquete de descripción del robot, la configuración propia de MoveIt 2, la escena de colisión y los scripts de Python para gestión de poses, comparación de planificadores e interpolación (cúbica y quíntica).
 
